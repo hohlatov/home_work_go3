@@ -8,6 +8,7 @@ import (
 func reset() {
 	mu.Lock()
 	transactions = make([]Transaction, 0)
+	budgets = make(map[string]Budget)
 	mu.Unlock()
 }
 
