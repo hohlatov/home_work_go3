@@ -1,0 +1,8 @@
+.DS_Store
+*.exe
+*.test
+*.out
+/gateway/gateway
+/ledger/ledger
+.idea/
+.vscode/
